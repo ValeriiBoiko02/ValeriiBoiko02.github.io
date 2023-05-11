@@ -1,49 +1,21 @@
-import project01 from "./../img/projects/01.jpg";
-import project01Big from "./../img/projects/01-big.jpg";
+import automationGitLab from "./../img/projects/Prj-GitLab-Big.png";
+import complexJsGithub from "./../img/projects/js-GithubBig.png";
 
 const projects = [
     {
-        title: 'Gaming streaming portal1',
-        skills: 'React, Node.js',
-        img: project01,
-        imgBig: project01Big,
-
-
+        title: 'Complex JS',
+        skills: 'JS, Node.js, TS',
+        img: complexJsGithub,
+        imgBig: complexJsGithub,
+        gitHubLink: 'https://github.com/ValeriiBoiko02/SwitchJS   '
     },
     {
-        title: 'Gaming streaming portal2',
-        skills: 'React, Node.js',
-        img: project01,
-        imgBig: project01Big,
-        gitHubLink: 'smth'
-    },
-    {
-        title: 'Gaming streaming portal3',
-        skills: 'React, Node.js',
-        img: project01,
-        imgBig: project01Big,
-        gitHubLink: 'smth'
-    },
-    {
-        title: 'Gaming streaming portal4',
-        skills: 'React, Node.js',
-        img: project01,
-        imgBig: project01Big,
-        gitHubLink: 'smth'
-    },
-    {
-        title: 'Gaming streaming portal5',
-        skills: 'React, Node.js',
-        img: project01,
-        imgBig: project01Big,
-        gitHubLink: 'smth'
-    },
-    {
-        title: 'Gaming streaming portal6',
-        skills: 'React, Node.js',
-        img: project01,
-        imgBig: project01Big,
-        gitHubLink: 'smth'
+        title: 'Automation Framework',
+        skills: 'Playwright, Docker, GitLab CI/CD',
+        img: automationGitLab,
+        imgBig: automationGitLab,
+        gitLabLink: 'https://gitlab.com/valerii.boiko01/react-automation',
+        //note: 'This project currently in active development stage'
     },
 ]
 

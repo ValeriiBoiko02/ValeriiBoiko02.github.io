@@ -10,10 +10,9 @@ const Header = () => {
                 <div className="header__text">
                     <p>Automation Quality Assurance Engineer</p>
                 </div>
-                {/*<a href="https://docs.google.com/document/d/1t7Rp8ZX_40-G-aGQc-3fZxVYxdDZN4iDE684wys1_WE/edit?usp=sharing"*/}
-                {/*   className="btn" >Open CV</a>*/}
-                <a href="Valerii_Boiko.pdf" download="Valerii_Boiko.pdf"
-                   className="btn" >Open CV11</a>
+                <a href="https://drive.google.com/file/d/1ItXdRagbPNx4hsom7MYV2OjuRi97qZLg/view?usp=share_link"
+                   target='_blank'
+                   className="btn">Open CV</a>
             </div>
         </header>
     )

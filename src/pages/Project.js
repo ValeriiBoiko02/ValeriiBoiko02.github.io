@@ -1,6 +1,7 @@
 import BtnGitHub from "../components/btnGitHub/BtnGitHub";
 import {useParams} from 'react-router-dom'
 import {projects} from "../helpers/projectsList";
+import BtnGitLab from "../components/btnGitLab/BtnGitLab";
 
 
 const Project = () => {
@@ -20,8 +21,17 @@ const Project = () => {
                             <p>Skills: {project.skills}</p>
                         </div>
 
+                    {project.note && (
+                        <div className="project-details__desc">
+                            <p>Note: {project.note}</p>
+                        </div>
+                    )}
+
                     {project.gitHubLink && (
-                        <BtnGitHub link="https://github.com"/>
+                        <BtnGitHub link={project.gitHubLink}/>
+                    )}
+                    {project.gitLabLink && (
+                        <BtnGitLab link = {project.gitLabLink}/>
                     )}
                 </div>
             </div>
